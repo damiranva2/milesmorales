@@ -1,3 +1,4 @@
+/* ================= ШРИФТ ================= */
 @font-face {
   font-family: slate; 
   src: url(./fonts/slate-pro-bold-condensed.ttf);
@@ -24,6 +25,7 @@ body {
     cursor: url("./images/cursor.cur"), auto;
 
 }
+/* ================= HERO / HEADER ================= */
 
 
 .background {
@@ -73,6 +75,8 @@ body {
 .test {
     background: #37498A;
 }
+/* ================= КНОПКИ ЭФФЕКТОВ ================= */
+
 .btn-ef {
     position: fixed;
     z-index: 9999;
@@ -111,6 +115,7 @@ body {
   color: rgb(255, 255, 255);
   z-index: 100001;
 }
+/* ================= MINI PLAYER ================= */
 .mini-player {
   outline: 1px solid rgba(255, 255, 255, 0.06);
   outline-offset: -2px;
@@ -221,7 +226,7 @@ body {
     bottom: 10px;
   }
 }
-
+/* ================= Таймлайн ================= */
 @import "https://codepen.io/cbolson/pen/rNEdgKo.css" layer(template);
 @layer template, demo;
 
@@ -469,6 +474,7 @@ body {
   text-align: center;
   margin-left: -80px;
 }
+/* ================= WHO SECTION ================= */
 .who {
   position: relative;
   display: flex;
@@ -717,7 +723,7 @@ body {
     filter: hue-rotate(0deg);
   }
 }
-
+/* ================= POWERS ================= */
 .powers {
   display: flex;
   flex-direction: column;
@@ -832,7 +838,7 @@ body {
   margin: 20px auto;
   margin-top: 200px;
 }
-
+/* ================= для JS ================= */
 .web-follow {
   position: absolute;
   width: 60px;
@@ -851,7 +857,7 @@ body {
 
 
 
-
+/* ================= облака ================= */
 
 body {
   position: relative;
@@ -879,7 +885,7 @@ body {
 .cloud1 { top: 200px; left: 10%; }
 .cloud2 { top: 800px; right: 5%; }
 .cloud3 { top: 1700px; left: 20%; } }
-
+/* ================= Злодеи  ================= */
 .villains {
   display: flex;
   flex-direction: column;
@@ -988,7 +994,7 @@ body {
   object-fit: cover;
   margin-top: 10px;
 }
- 
+ /* ================= Quotes ================= */
 .quotes {
   display: flex;
   flex-direction: column;
@@ -1024,7 +1030,7 @@ body {
   margin-top: 30px;
   color: rgb(255, 255, 255);
 }
-
+/* ================= minigame ================= */
 .minigame {
   display: flex;
   flex-direction: column;
@@ -1080,7 +1086,7 @@ body {
   display: block;
   border-radius: 20px;
 }
-
+/* ================= FOOTER ================= */
 footer {
   padding: 20px;
   text-align: center;
